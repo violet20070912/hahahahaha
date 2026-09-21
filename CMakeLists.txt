@@ -8,6 +8,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(reprojection_app
     src/main.cpp
+src/reprojection.cpp
 )
 
 target_include_directories(reprojection_app PRIVATE
